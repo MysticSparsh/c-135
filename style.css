@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    
+}
+
+#start_button{
+    font-family: 'Comic Neue', cursive;
+    background-color: rgb(138, 235, 42);
+    font-size: 18px;
+    color: rgb(32, 75, 230);
+    
+}
+
+#number_of_objects,#status{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 16px;
+    background-color: rgb(245, 185, 21);
+    color: rgb(255, 0, 115);
+    font-weight: bolder;
+    box-shadow: 4px 4px 18px rgb(225, 28, 225);
+}
+
+.copyright_footer{
+   bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-family: 'Comic Neue', cursive;
+    background-color: rgb(138, 235, 42);
+    font-size: 18px;
+    color: rgb(32, 75, 230);
+    line-height:1.36;
+    box-shadow: 1px 1px 18px whitesmoke;
+    text-shadow: 1px 1px 5px rgb(19, 113, 245) ; 
+}
+
+canvas
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
